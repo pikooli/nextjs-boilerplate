@@ -1,0 +1,85 @@
+{
+  "pages": {
+    "welcome": {
+      "title": "Welcome to {{name}}",
+      "description": "A boilerplate for your next project",
+      "get-started": "Get Started",
+      "learn-more": "Learn More",
+      "cards": {
+        "card_1": {
+          "title": "Authentication System",
+          "description": "A robust and secure authentication system."
+        },
+        "card_2": {
+          "title": "Database",
+          "description": "A robust and secure database."
+        },
+        "card_3": {
+          "title": "International Language",
+          "description": "A multi-language site."
+        }
+      }
+    },
+    "sign-in": {
+      "title": "Sign in",
+      "sign-up": "Sign up",
+      "form": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "forgot-password": "Forgot password"
+    },
+    "sign-up": {
+      "title": "Sign up",
+      "email-sent": "An email to verify your account has been sent",
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      }
+    },
+    "reset-password": {
+      "title": "Reset Password",
+      "form": {
+        "email": "Email"
+      },
+      "email-sent": "An email to reset your password has been sent"
+    },
+    "new-password": {
+      "title": "New Password",
+      "form": {
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "password-updated": "Password updated"
+      }
+    }
+  },
+  "layout": {
+    "footer": {
+      "copyright": "Copyright © {{year}} {{name}}"
+    },
+    "navbar": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "about": "About"
+    }
+  },
+  "buttons": {
+    "sign-in-with-google": "Sign in with Google",
+    "sign-in": "Sign in",
+    "sign-out": "Sign out",
+    "update-password": "Update Password",
+    "reset-password": "Reset Password",
+    "sign-up": "Sign up"
+  },
+  "errors": {
+    "email-required": "Email is required",
+    "password": "Password should be at least 8 characters long",
+    "password-match": "Passwords do not match",
+    "api": {
+      "USER_ALREADY_EXISTS": "The user already exists",
+      "PASSWORDS_DO_NOT_MATCH": "Passwords do not match",
+      "ERROR": "An error occurred"
+    }
+  }
+}

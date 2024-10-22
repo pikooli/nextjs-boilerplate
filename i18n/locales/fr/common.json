@@ -1,0 +1,87 @@
+{
+  "pages": {
+    "welcome": {
+      "title": "Bienvenue sur {{name}}",
+      "description": "Un boilerplate pour votre prochain projet",
+      "get-started": "Commencer",
+      "learn-more": "Voir plus",
+      "cards": {
+        "card_1": {
+          "title": "System d'authentification",
+          "description": "Un système d'authentification robuste et sécurisé."
+        },
+        "card_2": {
+          "title": "Base de données",
+          "description": "Une base de données robuste et sécurisée."
+        },
+        "card_3": {
+          "title": "Langue internationale",
+          "description": "Un site multi-langue."
+        }
+      }
+    },
+    "sign-in": {
+      "title": "Se connecter",
+      "sign-up": "S'inscrire",
+      "form": {
+        "email": "Email",
+        "password": "Mot de passe"
+      },
+      "forgot-password": "Mot de passe oublié"
+    },
+    "sign-up": {
+      "title": "S'inscrire",
+      "email-sent": "Un email de vérification a été envoyé",
+      "form": {
+        "email": "Email",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      }
+    },
+    "reset-password": {
+      "title": "Réinitialiser le mot de passe",
+      "form": {
+        "email": "Email"
+      },
+      "email-sent": "Un email de réinitialisation a été envoyé",
+      "button": "Réinitialiser le mot de passe"
+    },
+    "new-password": {
+      "title": "Nouveau mot de passe",
+      "button": "Mettre à jour le mot de passe",
+      "form": {
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe",
+        "password-updated": "Mot de passe mis à jour"
+      }
+    }
+  },
+  "layout": {
+    "footer": {
+      "copyright": "Copyright © {{year}} {{name}}"
+    },
+    "navbar": {
+      "home": "Accueil",
+      "dashboard": "Tableau de bord",
+      "about": "À propos"
+    }
+  },
+  "buttons": {
+    "sign-in-with-google": "Se connecter avec Google",
+    "sign-in": "Se connecter",
+    "sign-out": "Se déconnecter",
+    "sign-up": "S'inscrire",
+    "update-password": "Mettre à jour le mot de passe",
+    "reset-password": "Réinitialiser le mot de passe"
+  },
+  "errors": {
+    "email": "Email est requis",
+    "password": "Mot de passe est requis",
+    "confirmPassword": "Confirmation du mot de passe est requis",
+    "api": {
+      "USER_ALREADY_EXISTS": "L'utilisateur existe déjà",
+      "PASSWORDS_DO_NOT_MATCH": "Les mots de passe ne correspondent pas",
+      "ERROR": "Une erreur est survenue"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "appName": "OnTheMoons",
+  "confirmationLink": "http://localhost:3000/api/auth/callback/email?token=1234567890"
+}
