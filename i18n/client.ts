@@ -19,7 +19,6 @@ i18next
   .use(LanguageDetector)
   .use(
     resourcesToBackend((language: string, namespace: string) => {
-      console.log(language, namespace);
       return import(`./locales/${language}/${namespace}.json`);
     })
   )
@@ -44,7 +43,6 @@ export function useTranslations(
   const { i18n } = ret;
   if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
     i18n.changeLanguage(lng);
-    console.log('i18n.changeLanguage(lng);');
   } else {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [activeLng, setActiveLng] = useState(i18n.resolvedLanguage);
