@@ -1,8 +1,8 @@
 'use client';
+import { Image as ImageIcon, PlusCircle } from 'lucide-react';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { RefCallBack } from 'react-hook-form';
-import { AddImage, PlusCircle } from '@/src/components/svg';
 import { cn } from '@/src/utils/cn';
 
 interface InputImageProps extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -58,13 +58,13 @@ export const InputImage = ({
             width={100}
             height={100}
           />
-          <div className="rounded-fullbg-opacity-50 absolute inset-0 flex items-end justify-end">
+          <div className="absolute inset-0 flex items-end justify-end">
             <PlusCircle />
           </div>
         </div>
       ) : (
         <div className="flex h-32 w-32 items-center justify-center rounded-full bg-gray-200 text-gray-500">
-          <AddImage />
+          <ImageIcon />
         </div>
       )}
     </div>
